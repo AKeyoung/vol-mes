@@ -1,0 +1,17 @@
+E:\SVN_Project\QHDMES\QHDHD\VOL.Builder\bin\Debug\net6.0\VOL.Builder.deps.json
+E:\SVN_Project\QHDMES\QHDHD\VOL.Builder\bin\Debug\net6.0\VOL.Builder.dll
+E:\SVN_Project\QHDMES\QHDHD\VOL.Builder\bin\Debug\net6.0\VOL.Builder.pdb
+E:\SVN_Project\QHDMES\QHDHD\VOL.Builder\bin\Debug\net6.0\VOL.Core.dll
+E:\SVN_Project\QHDMES\QHDHD\VOL.Builder\bin\Debug\net6.0\VOL.Entity.dll
+E:\SVN_Project\QHDMES\QHDHD\VOL.Builder\bin\Debug\net6.0\VOL.Core.pdb
+E:\SVN_Project\QHDMES\QHDHD\VOL.Builder\bin\Debug\net6.0\VOL.Entity.pdb
+E:\SVN_Project\QHDMES\QHDHD\VOL.Builder\obj\Debug\net6.0\VOL.Builder.csproj.AssemblyReference.cache
+E:\SVN_Project\QHDMES\QHDHD\VOL.Builder\obj\Debug\net6.0\VOL.Builder.GeneratedMSBuildEditorConfig.editorconfig
+E:\SVN_Project\QHDMES\QHDHD\VOL.Builder\obj\Debug\net6.0\VOL.Builder.AssemblyInfoInputs.cache
+E:\SVN_Project\QHDMES\QHDHD\VOL.Builder\obj\Debug\net6.0\VOL.Builder.AssemblyInfo.cs
+E:\SVN_Project\QHDMES\QHDHD\VOL.Builder\obj\Debug\net6.0\VOL.Builder.csproj.CoreCompileInputs.cache
+E:\SVN_Project\QHDMES\QHDHD\VOL.Builder\obj\Debug\net6.0\VOL.Buil.4F7B464D.Up2Date
+E:\SVN_Project\QHDMES\QHDHD\VOL.Builder\obj\Debug\net6.0\VOL.Builder.dll
+E:\SVN_Project\QHDMES\QHDHD\VOL.Builder\obj\Debug\net6.0\refint\VOL.Builder.dll
+E:\SVN_Project\QHDMES\QHDHD\VOL.Builder\obj\Debug\net6.0\VOL.Builder.pdb
+E:\SVN_Project\QHDMES\QHDHD\VOL.Builder\obj\Debug\net6.0\ref\VOL.Builder.dll

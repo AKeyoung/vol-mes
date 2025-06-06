@@ -1,0 +1,134 @@
+/// <summary>
+/// 提交包装的内容到包装表中
+/// </summary>
+/// <param name="wordid"></param>
+/// <param name="packcode"></param>
+/// <param name="listSN"></param>
+/// <returns></returns>
+/// <exception cref="NotImplementedException"></exception>
+public static int PackProject(string wordid, string packcode, List<string> listSN, string userid,ref string err, bool values = false)
+{
+    try
+    {
+        //TODO test
+        //SaveKingDeePrdInstock(null, packcode, listSN);
+
+        //验证SN是否在待包装表中 ，如果都在待包装表，并且都是未包装环节 就给与通过
+
+        List<string> errlist = new List<string>(0);
+        List<WorkTaskpacksnlist> data = new List<WorkTaskpacksnlist>();
+        ValueitPackSN(listSN, ref errlist, ref data);
+        if (errlist.Count > 0)
+        {
+            err = string.Join(",", errlist);
+            return 2;
+        }
+        if (values)
+        {
+            
+            //if (!ValueitPackSNInProject(wordid, data))
+            //{
+            //    err = "SN存在跟订单不符合的产品";
+            //    return 2;
+            //}
+        }
+
+        //提交到包装环节
+        if (SavePackProject(data, packcode, userid) == 1)
+        {
+            //添加订单关联表
+            WorkTaskworkpack taskworkpack = new WorkTaskworkpack()
+            {
+                Sguid = CommonDAL.GetShortGuid(),
+                Packcode = packcode,
+                Ordercode = wordid,
+                PTYpe = values ? "1" : "0"
+            };
+            List<string> strings = new List<string>();
+
+            #region 作废
+            //添加送检记录
+            //WorkTaskread taskread = new WorkTaskread()
+            //{
+            //    Cuser = userid,
+            //    Sguid = CommonDAL.GetShortGuid(),
+            //    Workcode = workTask.Workcode,
+            //    Taskcode = workTask.Taskcode,
+            //    Taskuser = userid,
+            //    Type = "提交包装",
+            //    Ctime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"),
+            //    Trcontxt = "检测任务" + workTask.Taskcode + "提交包装环节"
+            //};
+
+            //string sq = @"select WorkID, oredrid,count(id) as sCount,COUNT(CASE WHEN packstatue = 1 THEN 1 END) AS InPack from [dbo].[Work_TaskPackSNList] where TSN in ({0}) GROUP BY  WorkID, oredrid";
+
+            //List<string> wherestr = new List<string>();
+
+            //foreach(string snn in listSN)
+            //{
+            //    wherestr.Add("'" + snn + "'");
+            //}
+
+            //sq = string.Format(sq, string.Join(',', wherestr));
+
+            //List<S_PackData> ordersi = new List<S_PackData>();
+
+            //ordersi = DbHelp<S_PackData>.Query(sq);
+
+            //foreach (S_PackData item in ordersi)
+            //{
+            //    if (item.sCount == item.InPack)
+            //    {
+            //        //TODO 因该根据完工数量 设置完工状态
+            //        strings.Add(string.Format(@"update MES_WorkOrder set etime='{0}' , sstate='3'   where OrderCode='{1}'   and code ='{2}';", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"), item.oredrid, item.WorkID));
+            //    }
+            //}
+            #endregion
+
+            strings.Add(LibHelp.CreateInserSql(taskworkpack, "Work_TaskWorkPack"));
+
+            #region 设置工单-完工
+            var sqlWorkOrder = @"SELECT [Id] ,[OrderCode] ,[Code] ,[Tenant] ,[ProductionLineId] ,[ProductCodes] ,[Qty],[CompleteQty] ,[Stime],[Etime],[Tstime],
+                                [CreateDate],[DataLevel],[OrderNo] ,[SState] FROM [MES_WorkOrder]
+                                where Code = '{0}'";
+            sqlWorkOrder = string.Format(sqlWorkOrder, wordid);
+            var mesWorkOrderModel = DbHelp<MESWorkOrderModel>.QueryFirstOrDefault(sqlWorkOrder);
+            if (mesWorkOrderModel != null)
+            {
+                //判定工单完工
+                if (mesWorkOrderModel.Qty <= mesWorkOrderModel.CompleteQty)
+                {
+                    strings.Add(string.Format(@"update MES_WorkOrder set etime='{0}' , sstate='3'   where code ='{1}';", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"), mesWorkOrderModel.Code));
+                }
+
+                //设置订单状态
+                var sqlWorkOrder1 = @"SELECT [Id] ,[OrderCode] ,[Code] ,[Tenant] ,[ProductionLineId] ,[ProductCodes] ,[Qty],[CompleteQty] ,[Stime],[Etime],[Tstime],
+                                [CreateDate],[DataLevel],[OrderNo] ,[SState] FROM [MES_WorkOrder]
+                                where OrderCode = '{0}'";
+                sqlWorkOrder1 = string.Format(sqlWorkOrder1, mesWorkOrderModel.OrderCode);
+                var mesWorkOrderModelList = DbHelp<MESWorkOrderModel>.Query(sqlWorkOrder1);
+                if (mesWorkOrderModelList != null && mesWorkOrderModelList.Count > 0 && mesWorkOrderModelList.All(wo => wo.Qty <= wo.CompleteQty)) //订单下所有工单的完工数量到达目标数量判定为订单完工
+                {
+                    strings.Add(string.Format(@"update [MES_OrderDl] set etime='{0}' , DataLevel=3,CompleteQty=Qty   where HdCode ='{1}';", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"), mesWorkOrderModel.OrderCode));
+                    strings.Add(string.Format(@"update [[MES_OrderHd]] set etime='{0}' , DataLevel=3   where HdCode ='{1}';", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"), mesWorkOrderModel.OrderCode));
+                }
+
+            }
+            #endregion
+            var result = DbHelp<WorkTaskworkpack>.BatchExecuteSqlQueries(strings);
+
+            //往康通金蝶ERP插入生产入库单
+            SaveKingDeePrdInstock(mesWorkOrderModel, packcode, listSN);
+            return result;
+        }
+        else
+        {
+            return -1;
+        }
+
+    }
+    catch (Exception ex)
+    {
+        return -1;
+    }
+}

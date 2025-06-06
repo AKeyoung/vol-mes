@@ -1,0 +1,13 @@
+E:\SVN_Project\QHDMES\OutPut\Debug\net6.0\SQLServerHelp.deps.json
+E:\SVN_Project\QHDMES\OutPut\Debug\net6.0\SQLServerHelp.dll
+E:\SVN_Project\QHDMES\OutPut\Debug\net6.0\SQLServerHelp.pdb
+E:\SVN_Project\QHDMES\QHDHD\SQLServerHelp\obj\Debug\net6.0\SQLServerHelp.csproj.AssemblyReference.cache
+E:\SVN_Project\QHDMES\QHDHD\SQLServerHelp\obj\Debug\net6.0\SQLServerHelp.GeneratedMSBuildEditorConfig.editorconfig
+E:\SVN_Project\QHDMES\QHDHD\SQLServerHelp\obj\Debug\net6.0\SQLServerHelp.AssemblyInfoInputs.cache
+E:\SVN_Project\QHDMES\QHDHD\SQLServerHelp\obj\Debug\net6.0\SQLServerHelp.AssemblyInfo.cs
+E:\SVN_Project\QHDMES\QHDHD\SQLServerHelp\obj\Debug\net6.0\SQLServerHelp.csproj.CoreCompileInputs.cache
+E:\SVN_Project\QHDMES\QHDHD\SQLServerHelp\obj\Debug\net6.0\SQLServe.098EBC8A.Up2Date
+E:\SVN_Project\QHDMES\QHDHD\SQLServerHelp\obj\Debug\net6.0\SQLServerHelp.dll
+E:\SVN_Project\QHDMES\QHDHD\SQLServerHelp\obj\Debug\net6.0\refint\SQLServerHelp.dll
+E:\SVN_Project\QHDMES\QHDHD\SQLServerHelp\obj\Debug\net6.0\SQLServerHelp.pdb
+E:\SVN_Project\QHDMES\QHDHD\SQLServerHelp\obj\Debug\net6.0\ref\SQLServerHelp.dll

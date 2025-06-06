@@ -1,0 +1,21 @@
+﻿/********************************
+ *
+ * 文 件 名:   $safeitemname$
+ * 创 建 者：  $username$
+ * 创建时间：  $time$
+ *
+********************************/
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using {StartName}.Core.BaseProvider;
+using {StartName}.Entity.DomainModels;
+using {StartName}.Core.Extensions.AutofacManager;
+namespace {Namespace}.IRepositories
+{
+    public partial interface I{TableName}Repository : IDependency,IRepository<{TableName}>
+    {
+    }
+    }

@@ -1,0 +1,203 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\SVN_Project\\QHDMES\\QHDHD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E17DB44D-59EF-47D5-9B21-E2F6C471B5E9}|VOL.Entity\\VOL.Entity.csproj|e:\\svn_project\\qhdmes\\qhdhd\\vol.entity\\domainmodels\\craft\\mes_attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E17DB44D-59EF-47D5-9B21-E2F6C471B5E9}|VOL.Entity\\VOL.Entity.csproj|solutionrelative:vol.entity\\domainmodels\\craft\\mes_attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB3C91B-93FE-4937-8B58-DDD3F57D4607}|VOL.WebApi\\VOL.WebApi.csproj|e:\\svn_project\\qhdmes\\qhdhd\\vol.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4DB3C91B-93FE-4937-8B58-DDD3F57D4607}|VOL.WebApi\\VOL.WebApi.csproj|solutionrelative:vol.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB3C91B-93FE-4937-8B58-DDD3F57D4607}|VOL.WebApi\\VOL.WebApi.csproj|e:\\svn_project\\qhdmes\\qhdhd\\vol.webapi\\controllers\\system\\partial\\sys_usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB3C91B-93FE-4937-8B58-DDD3F57D4607}|VOL.WebApi\\VOL.WebApi.csproj|solutionrelative:vol.webapi\\controllers\\system\\partial\\sys_usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F72743E-647E-4D37-85D1-07EC9CD0AB71}|VOL.Core\\VOL.Core.csproj|e:\\svn_project\\qhdmes\\qhdhd\\vol.core\\baseprovider\\servicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F72743E-647E-4D37-85D1-07EC9CD0AB71}|VOL.Core\\VOL.Core.csproj|solutionrelative:vol.core\\baseprovider\\servicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5984E929-D8CC-DA1A-7B2D-C008D793AEFF}|SQLServerHelp\\SQLServerHelp.csproj|e:\\svn_project\\qhdmes\\qhdhd\\sqlserverhelp\\dbhelp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5984E929-D8CC-DA1A-7B2D-C008D793AEFF}|SQLServerHelp\\SQLServerHelp.csproj|solutionrelative:sqlserverhelp\\dbhelp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F72743E-647E-4D37-85D1-07EC9CD0AB71}|VOL.Core\\VOL.Core.csproj|e:\\svn_project\\qhdmes\\qhdhd\\vol.core\\baseprovider\\servermappath\\pathprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F72743E-647E-4D37-85D1-07EC9CD0AB71}|VOL.Core\\VOL.Core.csproj|solutionrelative:vol.core\\baseprovider\\servermappath\\pathprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB3C91B-93FE-4937-8B58-DDD3F57D4607}|VOL.WebApi\\VOL.WebApi.csproj|e:\\svn_project\\qhdmes\\qhdhd\\vol.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4DB3C91B-93FE-4937-8B58-DDD3F57D4607}|VOL.WebApi\\VOL.WebApi.csproj|solutionrelative:vol.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F72743E-647E-4D37-85D1-07EC9CD0AB71}|VOL.Core\\VOL.Core.csproj|e:\\svn_project\\qhdmes\\qhdhd\\vol.core\\extensions\\serverextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F72743E-647E-4D37-85D1-07EC9CD0AB71}|VOL.Core\\VOL.Core.csproj|solutionrelative:vol.core\\extensions\\serverextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E17DB44D-59EF-47D5-9B21-E2F6C471B5E9}|VOL.Entity\\VOL.Entity.csproj|e:\\svn_project\\qhdmes\\qhdhd\\vol.entity\\domainmodels\\craft\\partial\\mes_craft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E17DB44D-59EF-47D5-9B21-E2F6C471B5E9}|VOL.Entity\\VOL.Entity.csproj|solutionrelative:vol.entity\\domainmodels\\craft\\partial\\mes_craft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E17DB44D-59EF-47D5-9B21-E2F6C471B5E9}|VOL.Entity\\VOL.Entity.csproj|e:\\svn_project\\qhdmes\\qhdhd\\vol.entity\\domainmodels\\craft\\partial\\mes_attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E17DB44D-59EF-47D5-9B21-E2F6C471B5E9}|VOL.Entity\\VOL.Entity.csproj|solutionrelative:vol.entity\\domainmodels\\craft\\partial\\mes_attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB3C91B-93FE-4937-8B58-DDD3F57D4607}|VOL.WebApi\\VOL.WebApi.csproj|e:\\svn_project\\qhdmes\\qhdhd\\vol.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4DB3C91B-93FE-4937-8B58-DDD3F57D4607}|VOL.WebApi\\VOL.WebApi.csproj|solutionrelative:vol.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 218,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\SVN_Project\\QHDMES\\QHDHD\\VOL.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "VOL.WebApi\\appsettings.json",
+              "ToolTip": "E:\\SVN_Project\\QHDMES\\QHDHD\\VOL.WebApi\\appsettings.json",
+              "RelativeToolTip": "VOL.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-06T06:44:16.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sys_UserController.cs",
+              "DocumentMoniker": "E:\\SVN_Project\\QHDMES\\QHDHD\\VOL.WebApi\\Controllers\\System\\Partial\\Sys_UserController.cs",
+              "RelativeDocumentMoniker": "VOL.WebApi\\Controllers\\System\\Partial\\Sys_UserController.cs",
+              "ToolTip": "E:\\SVN_Project\\QHDMES\\QHDHD\\VOL.WebApi\\Controllers\\System\\Partial\\Sys_UserController.cs",
+              "RelativeToolTip": "VOL.WebApi\\Controllers\\System\\Partial\\Sys_UserController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAwDMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T03:26:03.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DbHelp.cs",
+              "DocumentMoniker": "E:\\SVN_Project\\QHDMES\\QHDHD\\SQLServerHelp\\DbHelp.cs",
+              "RelativeDocumentMoniker": "SQLServerHelp\\DbHelp.cs",
+              "ToolTip": "E:\\SVN_Project\\QHDMES\\QHDHD\\SQLServerHelp\\DbHelp.cs",
+              "RelativeToolTip": "SQLServerHelp\\DbHelp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T03:35:32.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\SVN_Project\\QHDMES\\QHDHD\\VOL.WebApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "VOL.WebApi\\appsettings.Development.json",
+              "ToolTip": "E:\\SVN_Project\\QHDMES\\QHDHD\\VOL.WebApi\\appsettings.Development.json",
+              "RelativeToolTip": "VOL.WebApi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-28T00:38:36.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceBase.cs",
+              "DocumentMoniker": "E:\\SVN_Project\\QHDMES\\QHDHD\\VOL.Core\\BaseProvider\\ServiceBase.cs",
+              "RelativeDocumentMoniker": "VOL.Core\\BaseProvider\\ServiceBase.cs",
+              "ToolTip": "E:\\SVN_Project\\QHDMES\\QHDHD\\VOL.Core\\BaseProvider\\ServiceBase.cs",
+              "RelativeToolTip": "VOL.Core\\BaseProvider\\ServiceBase.cs",
+              "ViewState": "AgIAADQBAAAAAAAAAAAcwEYBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T08:06:35.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MES_Attachment.cs",
+              "DocumentMoniker": "E:\\SVN_Project\\QHDMES\\QHDHD\\VOL.Entity\\DomainModels\\Craft\\MES_Attachment.cs",
+              "RelativeDocumentMoniker": "VOL.Entity\\DomainModels\\Craft\\MES_Attachment.cs",
+              "ToolTip": "E:\\SVN_Project\\QHDMES\\QHDHD\\VOL.Entity\\DomainModels\\Craft\\MES_Attachment.cs",
+              "RelativeToolTip": "VOL.Entity\\DomainModels\\Craft\\MES_Attachment.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAiwBMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T08:16:01.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PathProvider.cs",
+              "DocumentMoniker": "E:\\SVN_Project\\QHDMES\\QHDHD\\VOL.Core\\BaseProvider\\ServerMapPath\\PathProvider.cs",
+              "RelativeDocumentMoniker": "VOL.Core\\BaseProvider\\ServerMapPath\\PathProvider.cs",
+              "ToolTip": "E:\\SVN_Project\\QHDMES\\QHDHD\\VOL.Core\\BaseProvider\\ServerMapPath\\PathProvider.cs",
+              "RelativeToolTip": "VOL.Core\\BaseProvider\\ServerMapPath\\PathProvider.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T08:05:32.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MES_Attachment.cs",
+              "DocumentMoniker": "E:\\SVN_Project\\QHDMES\\QHDHD\\VOL.Entity\\DomainModels\\Craft\\partial\\MES_Attachment.cs",
+              "RelativeDocumentMoniker": "VOL.Entity\\DomainModels\\Craft\\partial\\MES_Attachment.cs",
+              "ToolTip": "E:\\SVN_Project\\QHDMES\\QHDHD\\VOL.Entity\\DomainModels\\Craft\\partial\\MES_Attachment.cs",
+              "RelativeToolTip": "VOL.Entity\\DomainModels\\Craft\\partial\\MES_Attachment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T08:18:04.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MES_Craft.cs",
+              "DocumentMoniker": "E:\\SVN_Project\\QHDMES\\QHDHD\\VOL.Entity\\DomainModels\\Craft\\partial\\MES_Craft.cs",
+              "RelativeDocumentMoniker": "VOL.Entity\\DomainModels\\Craft\\partial\\MES_Craft.cs",
+              "ToolTip": "E:\\SVN_Project\\QHDMES\\QHDHD\\VOL.Entity\\DomainModels\\Craft\\partial\\MES_Craft.cs",
+              "RelativeToolTip": "VOL.Entity\\DomainModels\\Craft\\partial\\MES_Craft.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T08:18:06.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServerExtension.cs",
+              "DocumentMoniker": "E:\\SVN_Project\\QHDMES\\QHDHD\\VOL.Core\\Extensions\\ServerExtension.cs",
+              "RelativeDocumentMoniker": "VOL.Core\\Extensions\\ServerExtension.cs",
+              "ToolTip": "E:\\SVN_Project\\QHDMES\\QHDHD\\VOL.Core\\Extensions\\ServerExtension.cs",
+              "RelativeToolTip": "VOL.Core\\Extensions\\ServerExtension.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAvwBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T08:06:12.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\SVN_Project\\QHDMES\\QHDHD\\VOL.WebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "VOL.WebApi\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\SVN_Project\\QHDMES\\QHDHD\\VOL.WebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "VOL.WebApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-26T11:23:40.443Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

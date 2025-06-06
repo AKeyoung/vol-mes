@@ -1,0 +1,13 @@
+E:\SVN_Project\QHDMES\OutPut\Debug\net6.0\Help.deps.json
+E:\SVN_Project\QHDMES\OutPut\Debug\net6.0\Help.dll
+E:\SVN_Project\QHDMES\OutPut\Debug\net6.0\Help.pdb
+E:\SVN_Project\QHDMES\QHDHD\Help\obj\Debug\net6.0\Help.csproj.AssemblyReference.cache
+E:\SVN_Project\QHDMES\QHDHD\Help\obj\Debug\net6.0\Help.GeneratedMSBuildEditorConfig.editorconfig
+E:\SVN_Project\QHDMES\QHDHD\Help\obj\Debug\net6.0\Help.AssemblyInfoInputs.cache
+E:\SVN_Project\QHDMES\QHDHD\Help\obj\Debug\net6.0\Help.AssemblyInfo.cs
+E:\SVN_Project\QHDMES\QHDHD\Help\obj\Debug\net6.0\Help.csproj.CoreCompileInputs.cache
+E:\SVN_Project\QHDMES\QHDHD\Help\obj\Debug\net6.0\Help.csproj.Up2Date
+E:\SVN_Project\QHDMES\QHDHD\Help\obj\Debug\net6.0\Help.dll
+E:\SVN_Project\QHDMES\QHDHD\Help\obj\Debug\net6.0\refint\Help.dll
+E:\SVN_Project\QHDMES\QHDHD\Help\obj\Debug\net6.0\Help.pdb
+E:\SVN_Project\QHDMES\QHDHD\Help\obj\Debug\net6.0\ref\Help.dll
